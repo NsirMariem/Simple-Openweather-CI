@@ -5,7 +5,14 @@ CodeIgniter 3 + Openweathermap
 # Install
 Paste all folder to your CI application/ folder.
 
-# Usage
+# Try Script
+***access Your CI URL /weather***
+```Quote
+Example:
+localhost/codeigniter/weather
+```
+
+# Usage For Project
 ***Call Modal***
 ```PHP
 <?php
