@@ -22,3 +22,14 @@ $data="$this->M_weather->get($city)"; //array ?>
 ```PHP
 The weather of <?=$data['name']?> at <?=date("d M Y")?> is <?=$data2['weather'][0]['main']?>
 ```
+
+***Array Refreance - Example***
+"id":1650357,
+"name":"Bandung",
+"coord":{"lon":107.618607,"lat":-6.90389},
+"main":{"temp":293.573,"temp_min":293.573,"temp_max":293.573,"pressure":918.18,"sea_level":1024.43,"grnd_level":918.18,"humidity":94},
+"dt":1474503083,
+"wind":{"speed":0.98,"deg":92.5},
+"sys":{"country":"ID"},
+"clouds":{"all":0},
+"weather":[{"id":800,"main":"Clear","description":"Sky is Clear","icon":"01d"}]
