@@ -24,6 +24,7 @@ The weather of <?=$data['name']?> at <?=date("d M Y")?> is <?=$data2['weather'][
 ```
 
 ***Array Refreance - Example***
+```LIST
 "id":1650357,
 "name":"Bandung",
 "coord":{"lon":107.618607,"lat":-6.90389},
@@ -33,3 +34,4 @@ The weather of <?=$data['name']?> at <?=date("d M Y")?> is <?=$data2['weather'][
 "sys":{"country":"ID"},
 "clouds":{"all":0},
 "weather":[{"id":800,"main":"Clear","description":"Sky is Clear","icon":"01d"}]
+```
