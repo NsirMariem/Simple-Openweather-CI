@@ -20,7 +20,7 @@ $data="$this->M_weather->get($city)"; //array ?>
 ```
 ***Use to View***
 ```PHP
-The weather of <?=$data['name']?> at <?=date("d M Y")?> is <?=$data2['weather'][0]['main']?>
+The weather of <?=$data['name']?> at <?=date("d M Y")?> is <?=$data['weather'][0]['main']?>
 ```
 
 ***Array Refreance - Example***
